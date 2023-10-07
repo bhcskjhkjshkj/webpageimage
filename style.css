@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+html,body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background:url(image.png.png);
+    background-size: cover;
+    background-position: center;
+}
+.top{
+    width: 100vw;
+    height: 60vh;
+    /* background-color: aqua; */
+}
+.bottom{
+    display: flex;
+    width: 100vw;
+    height: 30vh;
+    background-color: bisque;
+}
+.navber{
+    align-items: center;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 100vw;
+    height: 10vh;
+    padding: 20px 30px;
+    /* background-color:red; */
+}
+.navber .link{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.navber h2{
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+}
+.navber a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 100;
+    margin: 0px -50px;
+    padding: 0px -50px;
+    color: #fff;
+    cursor: pointer;
+}
+.navber a:hover{
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+.link p{
+   margin: 0px 10px;
+   color: #fff;
+   font-size: 13px;
+   font-weight: 500;
+   cursor: pointer;
+}
+.link button{
+    padding: 5px 20px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+}
+.link button:hover{
+    background-color: transparent;
+    border: 2px solid #0fe;
+}
+.tleft{
+    position: relative;
+   width: 50%;
+   height: 100%;
+   /* background-color:rgba(204, 22, 204, 0.667); */
+   
+}
+.heading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.heading h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+.heading p{
+    font-size: 14px;
+    font-weight: 500;
+    opacity: .6;
+    margin: 5px 0px;
+    cursor: pointer;
+    color: #fff;
+}
+.heading button{
+    padding: 5px 10px;
+    background-color: #0fe;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    color: #000;
+    cursor: pointer;
+    margin: 5px;
+}
+.heading button:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid wheat;
+}
+.bleft{
+    width: 50%;
+    height: 100%;
+    /* background-color: lightgreen; */
+}
+.bright{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    /* background-color: gold; */
+}
+.box{
+    width: 300px;
+    height: 200px;
+    background:url(https://media.istockphoto.com/id/1450969748/photo/developer-working-with-new-program.webp?b=1&s=170667a&w=0&k=20&c=GFlBgWWQ6sjqUa4F1vGY_syBXxOYNpsndVG9XGYcNnw=);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    margin: 5px 30px;
+}
+.bright .lestb{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.lestb h1{
+    font-size: 30px;
+    color: #000;
+    font-weight: 600;
+    cursor: pointer;
+}
+.lestb p{
+    font-size: 14px;
+    font-weight: 500;
+    opacity: .6;
+    cursor: pointer;
+}
+.lestb button{
+    padding: 10px 80px;
+    margin: 5px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.lestb button:hover{
+    background-color: transparent;
+    color: #000;
+    border: 2px solid #0fe;
+}
